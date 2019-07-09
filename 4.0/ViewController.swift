@@ -18,7 +18,7 @@ class ViewController: UIViewController {
 
     func getUsers()
     {
-       
+       print("This is getUsers func")
         
         var request = URLRequest(url: URL(string: "http://example.com/api/v1/example")!)
         request.httpMethod = "GET"
